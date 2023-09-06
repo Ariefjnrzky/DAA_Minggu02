@@ -1,0 +1,10 @@
+def getaverage(myList):
+   total = 0
+   for item in myList:
+       total += item
+
+   if len(myList) > 0:
+      rata_rata = total / len(myList)
+      return rata_rata
+   else:
+       return 0
